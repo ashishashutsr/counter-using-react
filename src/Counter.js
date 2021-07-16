@@ -1,4 +1,3 @@
-
 function Counter(props) {
     //contents inside props (count and title) are assigned to individual variables
     const {count,title} = props  

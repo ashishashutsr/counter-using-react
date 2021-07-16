@@ -2,16 +2,8 @@ import React, {useState} from 'react'
 import Counter from './Counter'
 
 function App() {
-  /*
-    let count = 0;
-    function addCount()
-    {
-        count += 1;
-        console.log(count);
-    }
-  */
-
   const title = 'Counter One';
+  
   // Array destucturing using arrow function
   const [count, setCount] = useState(0);
     const addCount=()=> {
