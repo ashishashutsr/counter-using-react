@@ -3,7 +3,7 @@ import Counter from './Counter'
 
 function App() {
   const title = 'Counter One';
-  
+
   // Array destucturing using arrow function
   const [count, setCount] = useState(0);
     const addCount=()=> {
@@ -38,3 +38,5 @@ function App() {
 }
 
 export default App;
+
+
